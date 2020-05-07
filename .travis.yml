@@ -5,10 +5,9 @@ before_script:
   - composer install
 script: phpunit tests
 deploy:
- provider: heroku
- app: lab4jva
- on: master 
- skip_cleanup: true 
- api_key: 
-  secure: 
-   
+	provider: heroku
+	app: lab4jva
+	on: master
+	skip_cleanup: true
+	api_key: 
+	 secure: g11ZxNB49zKU13fLy1pm8DDU0MHkDKPNw9bUWUBxKuK092OmgbEDV78zUBN0hxZ72aS/j8P/MU5IR+D+/VouW2feanvY2WYT2U4Aokh5s6DQwrQwvktFK4URvYK9iUWzvwzquF00iSqauBRWF8ifF3X1dNKgDtwaCh5pctt8bzMU9U7M24P9HU+mPw4UFhsRJOpq/OMZJbJU1CbVWH1BQRPRHtdo2CDdcD5Axx39Mm9CShMaUbmLLLfiWerH2Q1nR9tqSLJaUsQKB+uNFlO3VgpX7K2H1/cZic6T724C8AE5MtBei6yqlx8lsdcZGlzWO27oT3ad0LjTHO1t2HfxmpUm5a3vYe+nL4mvlZT/zL48zDIVjVwTBA5dhUEV2NvLD9bmPgz0dUikL7wsC07n8Eopt1uGRDWTMkMYt/nX2JPS6M/RDT85wSunVkqOoQa1k73k/ZViIb3VDm4iAkCzV2X7mQSRmBzwX4gvSn8UaS0mnMAic1mbD30Dz8un8TKUTphSXo9Q4Ybcm/z4N1XniKs5f+13vKoT+igrve0mbm9h06h2gqXHPVAmNkOVElZXAsciEfvQGGXfGpIhaQK6WUgLiPlSd3wXdSLnx1i3vYOycxkoRU8bpfMF8NkjQnzBcfXXGrT0OD++q3DjoJM4KlfavKl8mmySgmkuv9i00Ow=
